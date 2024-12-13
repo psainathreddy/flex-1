@@ -1,0 +1,744 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container-1 {
+    width: 1300px;
+    border: 1px solid black;
+    height: 400px;
+    margin: 10px 5px 10px 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.firstbox {
+    width: 190px;
+    height: 240px;
+    border: 2px solid black;
+    background-color: lightpink;
+    top: 50px;
+    left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+p {
+    font-size: medium;
+    color: black;
+    position: absolute;
+    bottom: 80px;
+    left: 80px;
+}
+
+.item {
+    padding: 20px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+
+}
+
+.item-1 {
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40px;
+}
+
+.item-2 {
+    background-color: red;
+    border-radius: 10px;
+    width: 50px;
+    padding: 10px;
+}
+
+.item-3 {
+    background-color: red;
+    border-radius: 10px;
+    width: 50px;
+    padding: 10px;
+}
+
+.item-4 {
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40px;
+    justify-self: start;
+}
+
+.item-5 {
+    background-color: red;
+    border-radius: 10px;
+    width: 50px;
+    padding: 10px;
+}
+
+.item-6 {
+    background-color: red;
+    border-radius: 10px;
+    width: 50px;
+    padding: 10px;
+}
+
+.item-7 {
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40px;
+}
+
+.item-8 {
+    background-color: red;
+    border-radius: 10px;
+    width: 50px;
+    padding: 10px;
+}
+
+.item-9 {
+    background-color: red;
+    border-radius: 10px;
+    width: 50px;
+    padding: 10px;
+}
+
+.secondbox {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    height: 230px;
+    border-radius: 5px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: pink;
+}
+
+.col {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.col-1 {
+    height: 40px;
+    background-color: red;
+}
+
+.col-2 {
+    height: 70px;
+    background-color: red;
+}
+
+.col-3 {
+    height: 70px;
+    background-color: red;
+}
+
+.col-4 {
+    height: 40px;
+    background-color: red;
+}
+
+.col-5 {
+    height: 70px;
+    background-color: red;
+}
+
+.col-6 {
+    height: 70px;
+    background-color: red;
+}
+
+.col-7 {
+    height: 40px;
+    background-color: red;
+}
+
+.col-8 {
+    height: 70px;
+    background-color: red;
+}
+
+.col-9 {
+    height: 70px;
+    background-color: red;
+}
+
+.thirdbox {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    height: 230px;
+    border-radius: 5px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: pink;
+}
+
+.row {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.row-1 {
+    width: 40px;
+    border-radius: 10px;
+}
+
+.row-2 {
+    width: 50px;
+    border-radius: 20px;
+}
+
+.row-3 {
+    width: 50px;
+    border-radius: 20px;
+}
+
+.row-4 {
+    width: 50px;
+    border-radius: 20px;
+}
+
+.row-5 {
+    width: 50px;
+    border-radius: 20px;
+}
+
+.row-6 {
+    width: 50px;
+    border-radius: 20px;
+}
+
+.row-7 {
+    width: 50px;
+    border-radius: 20px;
+}
+
+.row-8 {
+    width: 50px;
+    border-radius: 20px;
+}
+
+.row-9 {
+    width: 50px;
+    border-radius: 20px;
+}
+
+.fourthbox {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    height: 230px;
+    border-radius: 5px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: pink;
+}
+
+.colr {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.colr-1 {
+    background-color: red;
+    height: 50px;
+
+}
+
+.colr-2 {
+    background-color: red;
+    height: 60px;
+
+}
+
+.colr-3 {
+    background-color: red;
+    height: 60px;
+
+}
+
+.colr-4 {
+    background-color: red;
+    height: 50px;
+}
+
+.colr-5 {
+    background-color: red;
+    height: 60px;
+
+}
+
+.colr-6 {
+    background-color: red;
+    height: 60px;
+
+}
+
+.colr-7 {
+    background-color: red;
+    height: 50px;
+}
+
+.colr-8 {
+    background-color: red;
+    height: 60px;
+
+}
+
+.colr-9 {
+    background-color: red;
+    height: 60px;
+
+}
+
+.container-2 {
+    width: 1300px;
+    border: 1px solid black;
+    height: 400px;
+    margin: 10px 5px 10px 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-1 {
+    width: 190px;
+    height: 240px;
+    border: 2px solid black;
+    background-color: lightpink;
+    top: 50px;
+    left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.start {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.start-1 {
+    width: 30px;
+    background-color: red;
+    height: 30px;
+
+}
+
+.start-2 {
+    width: 30px;
+    background-color: red;
+    height: 60px;
+
+}
+
+.start-3 {
+    width: 30px;
+    background-color: red;
+    height: 50px;
+
+}
+
+.box-2 {
+    width: 190px;
+    height: 240px;
+    border: 2px solid black;
+    background-color: lightpink;
+    top: 50px;
+    left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cen {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cen-1 {
+    width: 30px;
+    background-color: red;
+    height: 40px;
+}
+
+.cen-2 {
+    width: 40px;
+    background-color: red;
+    height: 60px;
+}
+
+.cen-3 {
+    width: 30px;
+    background-color: red;
+    height: 50px;
+}
+
+.box-3 {
+    width: 190px;
+    height: 240px;
+    border: 2px solid black;
+    background-color: lightpink;
+    top: 50px;
+    left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.flex {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.flex-1 {
+    width: 30px;
+    height: 40px;
+    background-color: red;
+}
+
+.flex-2 {
+    width: 30px;
+    height: 60px;
+    background-color: red;
+}
+
+.flex-3 {
+    width: 30px;
+    height: 50px;
+    background-color: red;
+}
+
+.box-4 {
+    width: 190px;
+    height: 240px;
+    border: 2px solid black;
+    background-color: lightpink;
+    top: 50px;
+    left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+    align-items: strech;
+    flex-wrap: wrap;
+}
+
+.str {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.str-1 {
+    background-color: red;
+    width: 30px;
+    height: 190px;
+}
+
+.str-2 {
+    background-color: red;
+    width: 30px;
+    height: 190px;
+}
+
+.str-3 {
+    background-color: red;
+    width: 30px;
+    height: 190px;
+}
+
+.container-3 {
+    width: 1300px;
+    border: 1px solid black;
+    height: 600px;
+    margin: 10px 5px 10px 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.bo-1 {
+    width: 190px;
+    height: 240px;
+    border: 2px solid black;
+    background-color: lightpink;
+    top: 50px;
+    left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px;
+    margin: 20px;
+    align-items: strech;
+}
+
+.fstart {
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.fstart-1 {
+    background-color: red;
+
+    width: 40px;
+}
+
+.fstart-2 {
+    background-color: red;
+
+    width: 40px;
+}
+
+.fstart-3 {
+    background-color: red;
+
+    width: 40px;
+    padding: 20px;
+}
+
+.bo-2 {
+    width: 190px;
+    height: 240px;
+    border: 2px solid black;
+    background-color: lightpink;
+    top: 50px;
+    left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+    align-items: strech;
+}
+
+.cen {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.cen-1 {
+    background-color: red;
+    width: 30px;
+}
+
+.cen-2 {
+    background-color: red;
+    width: 30px;
+}
+
+.cen-3 {
+    background-color: red;
+    width: 30px;
+}
+
+.b-3 {
+    width: 190px;
+    height: 240px;
+    border: 2px solid black;
+    background-color: lightpink;
+    top: 50px;
+    left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 20px;
+    align-items: strech;
+}
+
+.fend {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.fend-1 {
+    background-color: red;
+    height: 170px;
+}
+
+.fend-2 {
+    background-color: red;
+    height: 170px;
+}
+
+.fend-3 {
+    background-color: red;
+    height: 170px;
+}
+
+.b-4 {
+    width: 190px;
+    height: 240px;
+    border: 2px solid black;
+    background-color: lightpink;
+    top: 50px;
+    left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px;
+    align-items: strech;
+}
+
+.spb {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.spb-1 {
+    width: 40px;
+    background: red;
+}
+
+.spb-2 {
+    width: 40px;
+    background: red;
+}
+
+.spb-3 {
+    width: 40px;
+    background: red;
+}
+
+.b-5 {
+    width: 190px;
+    height: 240px;
+    border: 2px solid black;
+    background-color: lightpink;
+    top: 50px;
+    left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 20px;
+    align-items: strech;
+}
+
+.spa {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.spa-1 {
+    width: 30px;
+    background-color: red;
+}
+
+.spa-2 {
+    width: 40px;
+    background-color: red;
+}
+
+.spa-3 {
+    width: 30px;
+    background-color: red;
+}
+
+.b-6 {
+    width: 190px;
+    height: 240px;
+    border: 2px solid black;
+    background-color: lightpink;
+    top: 50px;
+    left: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 20px;
+    align-items: strech;
+}
+
+.spe {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.spe-1 {
+    width: 30px;
+    background-color: red;
+}
+
+.spe-2 {
+    width: 30px;
+    background-color: red;
+}
+
+.spe-3 {
+    width: 30px;
+    background-color: red;
+}
+
+.b-7 {
+    width: 400px;
+    height: 280px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: start;
+    padding: 10px;
+    margin: 20px;
+    align-content: flex-start;
+}
+
+.fstart {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.fstart-1,
+.fstart-2,
+.fstart-3,
+.fstart-4,
+.fstart-5,
+.fstart-6 {
+    width: 40px;
+    height: 70px;
+    background-color: red;
+}
